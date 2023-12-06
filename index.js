@@ -1,0 +1,21 @@
+const element = (
+  <div className="congrats-card-container">
+    <h1 className="heading">Congratulations</h1>
+    <div className="card">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/congrats-card-profile-img.png"
+        className="image"
+      />
+      <h1 className="card-title">Kiran V</h1>
+      <p class="card-para">
+        vishnu Institude of computer and Technology.Bhimavaram
+      </p>
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/congrats-card-watch-img.png"
+        class="watch-img"
+      />
+    </div>
+  </div>
+);
+
+ReactDOM.render(element, document.getElementById("root"));

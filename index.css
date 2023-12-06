@@ -1,0 +1,79 @@
+/* Write your code here. */
+.congrats-card-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+.card {
+  background-color: #cffafe;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  margin-top: 18px;
+  border-radius: 12px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 50%;
+    padding: 48px;
+    margin-top: 24px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 30%;
+  }
+}
+.image {
+  width: 145px;
+  height: 145px;
+}
+.card-title {
+  color: #1e293b;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .card-title {
+    font-size: 32px;
+  }
+}
+.card-para {
+  text-align: center;
+  color: #1e293b;
+  font-family: "roboto";
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .card-para {
+    font-size: 18px;
+  }
+}
+.watch-img {
+  margin-top: 24px;
+}
